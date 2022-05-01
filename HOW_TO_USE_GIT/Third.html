@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>
+            GIT
+        </title>
+        <style>
+            body
+            {   background-color:antiquewhite;
+                padding: 10%;
+                margin: auto;
+                background-size: cover;
+            }
+            .btn
+            {  
+                padding: 1ch;
+                background-color: rgb(246, 238, 243);
+                background-origin: padding-box;
+                color: rgb(8, 1, 15);
+            }
+            h1
+            {
+                color:rgb(117, 21, 21);
+            }
+            h2
+            {
+                color: brown;
+            }
+            h3
+            {
+                color: brown;
+            }
+            h4
+            {
+                color: chocolate;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="form2" action="Last.html">
+        <h1>HOW TO USE GIT</h1><br>
+            <h2>STEP#1: CREATE A GITHUB ACCOUNT</h2>
+            <h3>
+                Go to the website <a href="GitHub.com">GITHUB</a> and create a new account and then enter a username (e.g., Rehan123),<br>
+                 enter your email address and a password, and click Sign up for GitHub.<br>
+            </h3><br>
+
+            <h2>STEP#2: CREATE A NEW REPOSITORY</h2>
+            <h3>A repository is like a place or a container where something is stored; in this case we're creating a Git repository to store code. 
+                <br>To create a new repository, select New Repository from the + sign dropdown menu. <br>
+                Enter a name for your repository (e.g, "FIRST_REPO") and click Create Repository. Don't worry about changing any other options on this page.
+            </h3><br>
+
+            <h2>STEP#3: CLONE THE REPOSITORYAND GO TO TERMINAL</h2>
+            <h3>To do this click + on the global sidebar at left and under Get To <br>
+                Work select Clone this repository.
+                Now copy this link and open a terminal. After opening the terminal window, do the following:<br></h3>
+                <br>
+                <h4>
+                1. Navigate to your home (~) directory.<br>
+                    $ cd ~<br>
+                    As in future, you can probably work in multiple repositories. For that reason, it's a good idea<br>
+                    to create a directory to contain all those repositories.<br>
+                    <br>
+                2. Create a directory to contain your repositories.<br>
+                    $ mkdir repos<br>
+                    <br>
+                3. From the terminal, update the directory you want to work in to your new repos directory.<br>
+                    $ cd ~/repos<br>
+                    <br>
+                4. And now paste the command you copied from Bitbucket.<br>
+                    Now you have your repo directory on your machine. Now you have to set up your username and<br>
+                    password for git. For this purpose, type these commands:<br>
+                    <br>
+                    $ git config --global user.name "your name"<br>
+                    $ git config --global user.email "your university email"<br></h4>
+                
+
+            <h2>STEP#4: MAKE A COMMIT</h2>
+            <h3>
+                Type in the command line to now commit your files and add them into the local repository. It<br>
+                will add all of the files which are in the staging area to the local repository.<br>
+                    $ git commit -m “message you want to attach with this commit.”<br>
+                ○ Now to add the files which are in the local repository to the remote repository use this<br>
+                command. This command will add your files to your bitbucket repository.<br>
+                    $ git push origin master<br>
+            </h3><br>
+           
+
+            
+        <input class="btn" type="submit" VALUE="NEXT">
+        </form>
+        </body>
+</html>
